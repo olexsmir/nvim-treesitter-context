@@ -131,6 +131,7 @@ Note: support for specific languages is strictly community maintained and can br
   - [ ] `blade`
   - [ ] `blueprint`
   - [ ] `bp`
+  - [ ] `bpftrace`
   - [ ] `brightscript`
   - [ ] `c3`
   - [ ] `caddy`
@@ -217,6 +218,7 @@ Note: support for specific languages is strictly community maintained and can br
   - [ ] `javadoc`
   - [ ] `jinja`
   - [ ] `jinja_inline`
+  - [ ] `jjdescription`
   - [ ] `jq`
   - [ ] `jsdoc`
   - [ ] `json5`
@@ -226,6 +228,7 @@ Note: support for specific languages is strictly community maintained and can br
   - [ ] `kcl`
   - [ ] `kconfig`
   - [ ] `kitty`
+  - [ ] `kos`
   - [ ] `koto`
   - [ ] `kusto`
   - [ ] `lalrpop`
@@ -294,6 +297,7 @@ Note: support for specific languages is strictly community maintained and can br
   - [ ] `rnoweb`
   - [ ] `robot`
   - [ ] `robots`
+  - [ ] `robots_txt`
   - [ ] `roc`
   - [ ] `ron`
   - [ ] `rst`
@@ -425,6 +429,9 @@ vim.keymap.set("n", "[c", function()
   require("treesitter-context").go_to_context(vim.v.count1)
 end, { silent = true })
 ```
+
+With `mouse` enabled, left-click a context line or its number in Normal mode to
+jump to that source line. Use `<C-o>` to return.
 
 ## Adding support for other languages
 
